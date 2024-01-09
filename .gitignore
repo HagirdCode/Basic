@@ -1,24 +1,15 @@
-# Compiled class file
-*.class
+package com. company;
+public class CWH12V_Practice_Set_Problem06 {
+    //  Exercise 1 To find the Area Of Circle
+    public static void main(String[] args) {
+    int D = 20 ;
+    float pi = 3.14f;
 
-# Log file
-*.log
+    System.out.println("Area Of Circle is");
 
-# BlueJ files
-*.ctxt
+    float area = pi * D * D ;
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+    System.out.println(area);
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+    }
+}
